@@ -14,7 +14,7 @@ const Login = () => {
       }
     }, []);
   
-    // logout the user
+
     const handleLogout = () => {
       setUser({});
       setUsername("");
@@ -44,7 +44,7 @@ const Login = () => {
       );
     }
   
-    // if there's no user, show the login form
+
     return (
       <div>
         <form onSubmit={handleSubmit}>
